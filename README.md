@@ -3,7 +3,7 @@
 ---
 > ⚠️ **Disclaimer**: make sure the name of the group is right, otherwise you might lose important information.
 ---
-**purge-my-msg** is a Telegram user bot, which deletes all your messages from a chat you were kicked out of.
+**purge-my-msg** is a Telegram user bot, which deletes all your messages from a group.
 
 Yes, you can "delete for everyone" even if you were kicked. No, there's no such option, at least not in official clients.
 
