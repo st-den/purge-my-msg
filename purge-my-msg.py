@@ -11,7 +11,7 @@ client = TelegramClient("sesh", api_id, api_hash)
 
 async def main():
     if len(argv) != 2:
-        print(f'Usage:\n    purge-my-msg.py "Fancy Group Name"')
+        print('Usage:\n    purge-my-msg.py "Fancy Group Name"')
         exit(1)
 
     chat = None
@@ -24,7 +24,7 @@ async def main():
 
     me = PeerUser((await client.get_me(input_peer=True)).user_id)
 
-    messages = list()
+    messages = []
 
     async for message in client.iter_messages(chat):
         if message.from_id == me:
